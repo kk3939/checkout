@@ -7397,7 +7397,7 @@ const retryHelper = __importStar(__webpack_require__(587));
 const git_version_1 = __webpack_require__(559);
 // Auth header not supported before 2.9
 // Wire protocol v2 not supported before 2.18
-exports.MinimumGitVersion = new git_version_1.GitVersion('2.18');
+exports.MinimumGitVersion = new git_version_1.GitVersion('2.39.1');
 function createCommandManager(workingDirectory, lfs) {
     return __awaiter(this, void 0, void 0, function* () {
         return yield GitCommandManager.createCommandManager(workingDirectory, lfs);
